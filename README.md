@@ -1,141 +1,205 @@
 # 🔐 Cybersecurity & Digital Forensics Projects
 
-This repository showcases practical and research-driven projects in **cybersecurity, digital forensics, security operations, vulnerability analysis, and privacy-preserving blockchain investigation**.
+Welcome to my cybersecurity portfolio — a collection of **hands-on security, digital forensics, SOC, web security, blockchain, and machine-learning projects**.
 
-The projects demonstrate hands-on experience with security testing, log analysis, incident detection, machine learning, and forensic investigation.
-
----
-
-## 📌 Projects Included
-
-### 1. 🕵️ Log Detective
-
-A practical cybersecurity log-analysis project designed to identify **suspicious activity, security incidents, and potential attack patterns** from system and application logs.
-
-**Key Features:**
-
-* Automated log parsing and analysis
-* Detection of suspicious authentication activity
-* Identification of repeated failed login attempts
-* Detection of potential brute-force behaviour
-* IP address and event analysis
-* Security event classification
-* Timestamp and frequency-based investigation
-* Generation of actionable security insights
-
-**Technologies Used:**
-
-* Python
-* Log Analysis
-* Regular Expressions
-* Pandas
-* Cybersecurity Event Detection
-* Security Monitoring
-
-**Key Learning Outcomes:**
-
-* Understanding how security analysts investigate raw logs
-* Identifying indicators of suspicious behaviour
-* Automating repetitive SOC analysis tasks
-* Applying Python to security monitoring and investigation
-* Developing practical incident-detection logic
+Rather than focusing only on theory, these projects explore cybersecurity through practical experimentation, security testing, investigation, automation, and interactive applications.
 
 ---
 
-### 2. 🌐 Directory Traversal Attack Simulation
+## 🚨 Featured Projects
 
-A hands-on security testing project demonstrating how improper input validation can lead to **directory traversal vulnerabilities** in web applications.
+### 🕵️ Log Detective — SOC Investigation Game
 
-**Key Features:**
+**Turn security logs into a game.**
 
-* Exploitation of insecure file path handling
-* Access to restricted system files such as `/etc/passwd`
-* Security testing using Burp Suite
+Log Detective is a browser-based **SOC investigation game** where players analyse security events, identify suspicious behaviour, classify threats, avoid false positives, earn XP, and progress through SOC analyst ranks.
+
+The game simulates the type of decision-making required in a real Security Operations Centre, where analysts must separate genuine threats from legitimate activity hidden within noisy logs.
+
+**Investigation scenarios include:**
+
+* 🔨 Brute-force attacks
+* 🎣 Phishing
+* ⚡ Suspicious PowerShell activity
+* 👤 Rogue administrator accounts
+* 🦠 Ransomware indicators
+* 👨‍💻 Legitimate user behaviour
+
+**Tech Stack:**
+
+`React` `JavaScript` `Vite` `Framer Motion` `Lucide React` `HTML` `CSS` `JSON` `Vercel`
+
+🎮 **[Play Log Detective](https://lnkd.in/dPRZWcTK)**
+💻 **[View Project](./Log-Detective)**
+
+> **SIEM logs, but with XP and dramatic neon lighting. 💚**
+
+---
+
+### 🌐 Directory Traversal Attack Simulation
+
+A hands-on web application security project demonstrating how improper input validation can lead to **directory traversal vulnerabilities**.
+
+The project explores how attackers can manipulate file paths to access files outside an application's intended directory and how developers can mitigate these vulnerabilities.
+
+**Key Areas:**
+
+* Directory traversal exploitation
+* Insecure file path handling
+* Restricted file access
+* Burp Suite testing
 * PortSwigger Web Security Labs
-* Analysis of directory traversal attack techniques
-* Investigation of mitigation strategies
+* Input validation and sanitisation
+* Security mitigation techniques
 
-**Technologies Used:**
+**Technologies:**
 
-* Burp Suite
-* PortSwigger Web Security Labs
-* Web Application Security
-* HTTP
-* Vulnerability Analysis
+`Burp Suite` `PortSwigger Labs` `HTTP` `Web Security`
+
+💻 **[View Project](./Directory-Traversal-BurpSuite)**
 
 ---
 
-### 3. 🔗 Privacy-Preserving Monero Transaction Analysis
+### 🔗 Privacy-Preserving Monero Transaction Analysis
 
 **Master's Dissertation**
 
-An advanced research project exploring how **machine learning can analyse transaction behaviour on the Monero blockchain while preserving user privacy and anonymity**.
+An advanced research project investigating how **machine learning can analyse Monero transaction behaviour while preserving privacy and anonymity**.
+
+The project explores behavioural analysis, anomaly detection, explainable AI, and privacy-preserving techniques within a blockchain forensics context.
 
 **Key Features:**
 
-* Behavioural analysis using timing, frequency, and structural patterns
-* Unsupervised anomaly detection
-* Isolation Forest
+* Behavioural transaction analysis
+* Timing and frequency analysis
+* Structural transaction features
+* Isolation Forest anomaly detection
 * Autoencoders
-* Dimensionality reduction using PCA
-* Explainable AI using SHAP
-* Python-based analytical pipeline
+* PCA dimensionality reduction
+* SHAP explainability
 * Monero RPC / `monerod` integration
-* Interactive Streamlit visualisation dashboard
+* Python-based forensic pipeline
+* Interactive Streamlit dashboard
 
-**Technologies Used:**
+**Technologies:**
 
-* Python
-* Monero RPC / `monerod`
-* Scikit-learn
-* TensorFlow / Keras
-* SHAP
-* Streamlit
-* PCA
-* Machine Learning
+`Python` `Monero RPC` `monerod` `Scikit-learn` `TensorFlow` `Keras` `SHAP` `Streamlit`
 
-**Key Learning Outcomes:**
-
-* Applying machine learning to digital forensics
-* Analysing blockchain transaction behaviour
-* Developing end-to-end forensic analysis pipelines
-* Understanding privacy-preserving investigation techniques
-* Balancing investigative requirements with user anonymity
+💻 **[View Project](./Privacy-Preserving-Monero-Forensics)**
 
 ---
 
-## 🛡️ Core Areas
+## 🧠 What These Projects Demonstrate
 
-This repository demonstrates practical experience across:
+Across these projects, I explore different areas of cybersecurity:
 
-* 🔍 **Security Monitoring & Log Analysis**
-* 🕵️ **Digital Forensics**
-* 🌐 **Web Application Security**
-* 🧪 **Vulnerability Analysis**
-* 🤖 **Machine Learning for Cybersecurity**
-* 🔗 **Blockchain Forensics**
-* 🔐 **Privacy-Preserving Security**
-* 🚨 **Threat & Anomaly Detection**
-* 🐍 **Python Security Automation**
-
----
-
-## 🧰 Technologies & Tools
-
-`Python` · `Pandas` · `Scikit-learn` · `TensorFlow` · `Keras` · `SHAP` · `Streamlit` · `Burp Suite` · `Monero RPC` · `monerod` · `PCA` · `Regex` · `Git`
+| Area                        | Project                 |
+| --------------------------- | ----------------------- |
+| 🛡️ SOC & Blue Team         | **Log Detective**       |
+| 🚨 Threat Detection         | **Log Detective**       |
+| 🌐 Web Application Security | **Directory Traversal** |
+| 🔍 Digital Forensics        | **Monero Forensics**    |
+| 🔗 Blockchain Security      | **Monero Forensics**    |
+| 🤖 Machine Learning         | **Monero Forensics**    |
+| 🧪 Vulnerability Analysis   | **Directory Traversal** |
+| 🎮 Security Education       | **Log Detective**       |
+| 🐍 Security Automation      | **Monero Forensics**    |
 
 ---
 
-## 🎯 Focus
+## 🛠️ Technologies & Tools
 
-The overall focus of this repository is on building **practical cybersecurity solutions rather than purely theoretical projects**, combining security analysis, automation, machine learning, and digital forensics to investigate and detect real-world security problems.
+### Cybersecurity
+
+`Burp Suite` · `Wireshark` · `Nmap` · `PortSwigger` · `SIEM` · `SOC` · `Digital Forensics`
+
+### Programming & Development
+
+`Python` · `JavaScript` · `React` · `HTML` · `CSS` · `Vite` · `Streamlit`
+
+### Machine Learning
+
+`Scikit-learn` · `TensorFlow` · `Keras` · `PCA` · `SHAP`
+
+### Blockchain
+
+`Monero` · `monerod` · `Monero RPC` · `Blockchain Forensics`
+
+### Deployment & Development Tools
+
+`Git` · `GitHub` · `Vercel` · `Claude Code`
 
 ---
 
-## 📬 Contact
+## 🎯 Focus Areas
+
+My work focuses on the intersection of:
+
+**Cybersecurity + Digital Forensics + Blockchain + Machine Learning**
+
+with particular interest in:
+
+* 🔐 Security Operations
+* 🕵️ Digital Forensics
+* 🚨 Threat Detection
+* 🌐 Web Security
+* 🔗 Blockchain Security
+* 🤖 Machine Learning for Cybersecurity
+* 🔎 Security Investigation
+* 🛡️ Blue Team Operations
+* 🔒 Privacy-Preserving Technologies
+
+---
+
+## 📂 Repository Structure
+
+```text
+SecurityandForensics-Projects/
+│
+├── Log-Detective/
+│   ├── src/
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   └── README.md
+│
+├── Directory-Traversal-BurpSuite/
+│   └── ...
+│
+├── Privacy-Preserving-Monero-Forensics/
+│   └── ...
+│
+└── README.md
+```
+
+Each project contains its own README with detailed information about the implementation, technologies, setup instructions, and learning outcomes.
+
+---
+
+## 🎓 About Me
+
+I'm a cybersecurity-focused technologist with an **MSc in Blockchain Technology & Applications**, interested in security operations, digital forensics, blockchain security, and machine learning.
+
+I enjoy building projects that combine **technical security concepts with practical, interactive experiences** — including turning something as traditionally dry as SIEM logs into a game. 😄
+
+---
+
+## 📬 Connect
 
 📧 **Email:** [fiza.sk293@gmail.com](mailto:fiza.sk293@gmail.com)
+
 🔗 **LinkedIn:** https://www.linkedin.com/in/fizashaikh293/
+
 🔗 **GitHub:** https://github.com/FizaShaikh293/
 
-Feel free to connect or reach out for collaboration opportunities, cybersecurity projects, or security research discussions.
+🌐 **Portfolio:** https://fizashaikh.lovable.app/
+
+---
+
+## ⭐ Explore the Projects
+
+If you're interested in cybersecurity, feel free to explore the individual projects, experiment with the implementations, and check out the code.
+
+🎮 **Start with Log Detective and see if you can reach Elite Threat Hunter.**
+
+> **Investigate. Detect. Learn. Build. 🔐**
