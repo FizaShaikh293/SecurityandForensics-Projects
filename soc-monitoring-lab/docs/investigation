@@ -2,9 +2,9 @@
 
 ## Overview
 
-The lab was used to practise investigating security activity recorded from the Windows endpoint through Wazuh.
+The lab was used to investigate security activity recorded from the Windows endpoint through Wazuh.
 
-The investigation involved reviewing security events, using Threat Hunting to identify relevant activity, and opening individual events to examine their available details.
+The investigation involved reviewing security events, using Threat Hunting to identify relevant activity, and examining individual events.
 
 ## 1. Review Security Events
 
@@ -22,7 +22,7 @@ Individual events were opened to review their recorded information and metadata.
 
 ## 3. Review Endpoint Activity
 
-Windows command-line activity was observed during the lab and could be reviewed as part of the investigation process.
+Windows command-line activity was observed during the lab and reviewed as part of the investigation process.
 
 ![Command Line Activity](../screenshots/09-command-line-activity.png)
 
